@@ -1,18 +1,3 @@
-pipeline {
-  agent any
-  triggers {
-    pollSCM('H/5 * * * *')
-  }
-  
-  stages {
-    stage('Example') {
-      steps {
-        echo 'hello jenkins'
-      }
-    }
-  }
-}
-
 node {
   def mvnHome
   stage('Preparation') {
@@ -36,3 +21,22 @@ node {
     }
   }
 }
+
+properties([
+    [
+        $class: 'GithubProjectProperty',
+        displayName: 'autotest.datasource',
+        projectUrlStr: 'https://github.com/LinuxSuRen/autotest.datasource'
+    ],
+    buildDiscarder(
+        logRotator(
+            artifactDaysToKeepStr: '',
+            artifactNumToKeepStr: '',
+            daysToKeepStr: '7',
+            numToKeepStr: '14'
+        )
+    ),
+    pipelineTriggers([
+        pollSCM('H/15 * * * *')
+    ])
+])
