@@ -2,3 +2,4 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.surenpi.autotest/autotest.datasource/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.surenpi.autotest/autotest.datasource)
 
 # autotest.datasource
+自动化测试数据源接口定义
