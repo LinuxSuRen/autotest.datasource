@@ -24,8 +24,7 @@ import com.surenpi.autotest.datasource.DataResource;
 
 /**
  * 文件类型的资源
- * @author suren
- * @date Jul 17, 2016 8:49:18 AM
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public class FileResource implements DataResource
 {

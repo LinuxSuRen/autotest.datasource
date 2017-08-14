@@ -19,8 +19,8 @@ package com.surenpi.autotest.datasource;
 import java.util.Set;
 
 /**
- * @author suren
- * @date 2017年3月25日 上午9:06:02
+ * 动态日期格式
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DynamicDateFormat
 {

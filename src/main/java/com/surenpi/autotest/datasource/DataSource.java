@@ -20,8 +20,7 @@ package com.surenpi.autotest.datasource;
 
 /**
  * 数据源顶层接口
- * @author suren
- * @date Jul 17, 2016 8:45:03 AM
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DataSource<T> extends DynamicDataSource
 {

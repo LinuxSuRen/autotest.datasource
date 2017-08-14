@@ -26,8 +26,7 @@ import java.net.URL;
 
 /**
  * 数据资源定义顶层接口
- * @author suren
- * @date Jul 17, 2016 8:47:30 AM
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DataResource
 {

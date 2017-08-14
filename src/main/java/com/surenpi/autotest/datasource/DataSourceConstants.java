@@ -20,15 +20,15 @@ package com.surenpi.autotest.datasource;
 
 /**
  * 数据源常量
- * @author suren
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DataSourceConstants
 {
-    /** xml格式 */
+    /** xml格式{@value} */
     String DS_TYPE_XML = "xml_data_source";
-    /** yaml格式 */
+    /** yaml格式{@value} */
     String DS_TYPE_YAML = "yaml_data_source";
-    /** excel格式 */
+    /** excel格式{@value} */
     String DS_TYPE_EXCEL = "excel_data_source";
 
     String DS_NAME = null;

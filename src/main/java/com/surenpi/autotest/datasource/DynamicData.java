@@ -21,16 +21,15 @@ package com.surenpi.autotest.datasource;
 import java.util.Map;
 
 /**
- * 动态数据
- * @author suren
- * @date 2017年1月4日 下午12:30:53
+ * 动态数据接口
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DynamicData
 {
 	/**
-	 * 返回格式化后的字符串
+	 * 格式化给定的字符串
 	 * @param orginData
-	 * @return
+	 * @return 格式化后的字符串
 	 */
 	String getValue(String orginData);
 	
@@ -39,5 +38,9 @@ public interface DynamicData
 	 */
 	String getType();
 	
+	/**
+	 * 设置动态参数
+	 * @param data 动态参数
+	 */
 	void setData(Map<String, Object> data);
 }

@@ -17,8 +17,7 @@
 package com.surenpi.autotest.datasource;
 
 /**
- * @author suren
- * @date 2016年7月22日 下午5:54:30
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DataSourceContextAware
 {

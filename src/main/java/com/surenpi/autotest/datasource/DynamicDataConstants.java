@@ -18,10 +18,23 @@ package com.surenpi.autotest.datasource;
 
 /**
  * 动态数据类型常量
- * @author suren
- * @date 2017年6月26日 上午11:09:19
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DynamicDataConstants
 {
+	/** 简单类型的数据{@value} */
 	String DDC_SIMPLE = "simple";
+    /** 数据将被会当作freemarker模板来解析 */
+    String DDC_FREEMARKER = "freemarker";
+    String DDC_PROPERTIES = "properties";
+    String DDC_SYSTEM = "system";
+    String DDC_RANDOM_TEXT = "random_text";
+    String DDC_PAGE_REF = "page_ref";
+    /** 数据将会被当作Groovy脚本来解析 */
+    String DDC_GROOVY = "groovy";
+    /** 数据将会被当作JavaScript脚本来解析 */
+    String DDC_JAVASCRIPT = "javascript";
+    String DDC_ENCRYPT = "encrypt";
+    String DDC_CALLBACK = "callback";
+    String DDC_SEQUENCE = "sequence";
 }

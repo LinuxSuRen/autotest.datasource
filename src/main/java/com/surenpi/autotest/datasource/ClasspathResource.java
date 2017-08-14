@@ -21,8 +21,7 @@ import java.net.URL;
 
 /**
  * 类路径资源
- * @author suren
- * @date 2016年9月6日 上午8:09:21
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public class ClasspathResource implements DataResource
 {

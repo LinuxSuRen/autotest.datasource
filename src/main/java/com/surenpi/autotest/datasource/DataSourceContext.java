@@ -22,16 +22,16 @@ import java.util.Map;
 
 /**
  * @author suren
- * @date 2016年7月22日 下午5:43:05
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public class DataSourceContext
 {
-	private Map<String, DataSource>	dataSourceMap;
+	private Map<String, DataSource<?>>	dataSourceMap;
 
 	/**
 	 * @return the dataSourceMap
 	 */
-	public Map<String, DataSource> getDataSourceMap()
+	public Map<String, DataSource<?>> getDataSourceMap()
 	{
 		return dataSourceMap;
 	}
@@ -39,7 +39,7 @@ public class DataSourceContext
 	/**
 	 * @param dataSourceMap the dataSourceMap to set
 	 */
-	public void setDataSourceMap(Map<String, DataSource> dataSourceMap)
+	public void setDataSourceMap(Map<String, DataSource<?>> dataSourceMap)
 	{
 		this.dataSourceMap = dataSourceMap;
 	}

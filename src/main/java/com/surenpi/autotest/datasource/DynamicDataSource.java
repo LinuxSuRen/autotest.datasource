@@ -19,8 +19,8 @@
 package com.surenpi.autotest.datasource;import java.util.Map;
 
 /**
- * @author suren
- * @date 2017年3月24日 下午10:20:06
+ * 动态数据的资源表示
+ * @author <a href="http://surenpi.com">suren</a>
  */
 public interface DynamicDataSource
 {
