@@ -28,7 +28,7 @@ public interface DynamicData
 {
 	/**
 	 * 格式化给定的字符串
-	 * @param orginData
+	 * @param orginData 原始数据，例如：变量、脚本、模板等
 	 * @return 格式化后的字符串
 	 */
 	String getValue(String orginData);
